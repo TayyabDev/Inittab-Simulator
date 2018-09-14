@@ -1,2 +1,2 @@
-# Parallel Process Executer
+# Parallel Process Executor
 A program that simulates inittab; a file that controls which processes are executed upon boot or changing of the run level of a Linux system. User's create a text file containing a list of the processes they want to boot for the specific run level (such as Single User Mode or Multi-User Mode with Networking). Then, they can run the program to simulate a specific run level; the program will then run all the processes in parallel that the user listed from the text file targeted towards that run level.
